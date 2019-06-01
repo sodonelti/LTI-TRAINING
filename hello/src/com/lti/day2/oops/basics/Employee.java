@@ -45,6 +45,21 @@ public class Employee {
 		this.aadharCard = aadharCard;
 	}
 	
-	
+	public void displayInfo() {
+		
+		    System.out.println("EMP NUMBER IS: "+empno);
+			System.out.println("EMP NAME IS: "+name);
+			System.out.println("EMP DOJ IS: "+dateOfJoining);
+			System.out.println("EMP SALARY IS: "+salary);
+		   
+			System.out.println("\nEMP PASSPORT NO IS: "+passport.getPassportNo());
+			System.out.println("PASSPORT NAME : "+passport.getName());
+			System.out.println("ISSUE DATE IS : "+passport.getIssueDate());
+			System.out.println("EXPIRE DATE IS : "+passport.getExpDate());
+			
+		    System.out.println("\n AADHAR CARD NO : "+aadharCard.getAadharNo());
+		    System.out.println(" AADHAR NAME : "+aadharCard.getName());
+	    	System.out.println(" AADHAR ADDRESS : "+aadharCard.getAddress()); 
+	}
 
 }
