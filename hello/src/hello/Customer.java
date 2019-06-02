@@ -7,7 +7,7 @@ public class Customer {
 	
 	//LINKING CUSTOMER AND ADDRESS CLASS
 	private Address addr; //HAS -A RELATIONSHIP
-
+// "addr" is the object for the whole address class//
 	public String getName() {
 		return name;
 	}

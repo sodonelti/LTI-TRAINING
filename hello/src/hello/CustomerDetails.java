@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	addr.setCity("chennai");
 	addr.setState("tamilnadu");
 	addr.setPincode(600125);
-    c.setAddr(addr);
+    c.setAddr(addr);//or c.seta(addr)
 	
     c.displaydetails();
 	}
