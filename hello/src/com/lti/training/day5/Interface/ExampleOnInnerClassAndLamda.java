@@ -66,10 +66,9 @@ public class ExampleOnInnerClassAndLamda {
 		};
 		pr.print("hello.txt");
 		
-		Printer pt=doc ->System.out.println("now printing" +doc);
+		Printer pt=doc`	 ->System.out.println("now printing" +doc);
 		pt.print("hello");
 		
-	
 	//INNER CLASSES CAN BE PRIVATE , PROTECTED, PUBLIC
 	//WE CAN DECLARE AN INNER CLASS AS PRIVATE IN THE MAIN CLASS
 	//GENERALLY CLASSES ARE ONLY PUBLIC ,WHEREAS INNER CLASS CAN BE PRIVATE etc.
